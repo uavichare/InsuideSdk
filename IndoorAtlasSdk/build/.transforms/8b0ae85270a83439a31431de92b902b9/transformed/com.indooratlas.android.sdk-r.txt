@@ -1,0 +1,2 @@
+com.indooratlas.android.sdk
+string app_name
