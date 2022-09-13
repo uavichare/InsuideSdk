@@ -1,7 +1,7 @@
 <project>
     <modelVersion>1.0.0</modelVersion>
 
-    <groupId>com.example.dubailibrary</groupId>
-    <artifactId>IndoorAtlasSdk</artifactId>
+    <groupId>com.github.udayinsuide</groupId>
+    <artifactId>Insuidesdk</artifactId>
     <version>1</version>
 </project>
