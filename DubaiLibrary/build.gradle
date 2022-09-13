@@ -35,7 +35,7 @@ android {
 }
 
 
-publishing {
+/*publishing {
     publications {
         maven(MavenPublication) {
             groupId 'com.example' //You can either define these here or get them from project conf elsewhere
@@ -62,7 +62,7 @@ publishing {
             url "https://github.com/UdayInsuide/InsuideSdk"
         }
     }
-}
+}*/
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.5.1'
