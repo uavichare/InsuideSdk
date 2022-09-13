@@ -46,6 +46,7 @@ afterEvaluate {
                 //aar artifact you want to publish
 
                 //generate pom nodes for dependencies
+/*
                 pom.withXml {
                     def dependenciesNode = asNode().appendNode('dependencies')
                     configurations.compile.allDependencies.each { dependency ->
@@ -55,6 +56,7 @@ afterEvaluate {
                         dependencyNode.appendNode('version', dependency.version)
                     }
                 }
+*/
             }
         }
 
