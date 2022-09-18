@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: __wrapped_aars__::IndoorAtlasSdk:unspecified@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IndoorAtlasSdk/build/.transforms/0895142239d885e6cadbc8ba339bc491/transformed/indooratlas-android-sdk-3.4.12/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/IndoorAtlasSdk/build/.transforms/0895142239d885e6cadbc8ba339bc491/transformed/indooratlas-android-sdk-3.4.12/res" />
+      <root url="file://$PROJECT_DIR$/IndoorAtlasSdk/build/.transforms/0895142239d885e6cadbc8ba339bc491/transformed/indooratlas-android-sdk-3.4.12/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
