@@ -1,5 +1,7 @@
 plugins {
     id 'com.android.application'
+    id 'maven-publish'
+
 }
 
 android {
@@ -36,3 +38,23 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
+
+
+afterEvaluate {
+    publishing {
+        publications
+                {
+                    release(MavenPublication)
+                            {
+                               // from Component.re
+
+                                groupId='com.example'
+                                artifactId='dubai_library'
+                                version ='1.5'
+
+                            }
+                }
+    }
+
+}
+
