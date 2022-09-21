@@ -36,16 +36,14 @@ android {
 }
 
 dependencies {
-
     api project(":IndoorAtlasSdk")
-
-   // implementation 'com.indooratlas.android:indooratlas-android-sdk:3.5.5'
 
 }
 
 
 afterEvaluate {
     publishing {
+/*
         publications
                 {
                     release(MavenPublication)
@@ -58,6 +56,7 @@ afterEvaluate {
 
                             }
                 }
+*/
     }
 
 }

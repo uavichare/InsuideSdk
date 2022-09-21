@@ -44,6 +44,7 @@ dependencies {
 
 afterEvaluate {
     publishing {
+/*
         publications
                 {
                     release(MavenPublication)
@@ -56,6 +57,7 @@ afterEvaluate {
 
                             }
                 }
+*/
     }
 
 }
