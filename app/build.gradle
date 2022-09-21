@@ -44,20 +44,18 @@ dependencies {
 
 afterEvaluate {
     publishing {
-/*
         publications
                 {
-                    release(MavenPublication)
-                            {
-                               // from Component.re
-
-                                groupId='com.example'
-                                artifactId='dubai_library'
-                                version ='1.5'
-
-                            }
+//                    release(MavenPublication)
+//                            {
+//                               // from Component.re
+//
+//                                groupId='com.example'
+//                                artifactId='dubai_library'
+//                                version ='1.5'
+//
+//                            }
                 }
-*/
     }
 
 }
