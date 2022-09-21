@@ -31,18 +31,18 @@ android {
 
 dependencies {
 
-    api 'androidx.appcompat:appcompat:1.5.1'
-    api 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation project(":DubaiLibrary")
 
-    api 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     testImplementation 'junit:junit:4.13.2'
-    api 'androidx.test.ext:junit:1.1.3'
-    api 'androidx.test.espresso:espresso-core:3.4.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
 
 
 
-/*
 afterEvaluate {
     publishing {
         publications
@@ -52,7 +52,7 @@ afterEvaluate {
                                // from Component.re
 
                                 groupId='com.example'
-                                artifactId='dubailibrary'
+                                artifactId='dubai_library'
                                 version ='1.5'
 
                             }
@@ -60,6 +60,5 @@ afterEvaluate {
     }
 
 }
-*/
 
 
