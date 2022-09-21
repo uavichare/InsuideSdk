@@ -36,7 +36,6 @@
     <orderEntry type="jdk" jdkName="Android API 32 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="My_Application.DubaiLibrary.main" scope="TEST" />
-    <orderEntry type="library" scope="TEST" name="Gradle: __wrapped_aars__::IndoorAtlasSdk:unspecified@aar" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="My_Application.DubaiLibrary.main" />
 </module>

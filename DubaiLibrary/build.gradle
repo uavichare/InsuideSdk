@@ -36,14 +36,14 @@ android {
 }
 
 dependencies {
-    api project(":IndoorAtlasSdk")
+   // api project(":IndoorAtlasSdk")
 
 }
 
 
-afterEvaluate {
+/*afterEvaluate {
     publishing {
-/*
+*//*
         publications
                 {
                     release(MavenPublication)
@@ -56,8 +56,8 @@ afterEvaluate {
 
                             }
                 }
-*/
+*//*
     }
 
-}
+}*/
 

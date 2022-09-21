@@ -41,6 +41,5 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 32 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: __wrapped_aars__::IndoorAtlasSdk:unspecified@aar" level="project" />
   </component>
 </module>

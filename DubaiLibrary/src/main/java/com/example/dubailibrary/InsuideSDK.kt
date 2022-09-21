@@ -2,7 +2,6 @@ package com.example.dubailibrary
 
 import android.content.Context
 import android.content.Intent
-import androidx.annotation.Keep
 
 class InsuideSDK {
     // companion object SDKMethods {
