@@ -77,6 +77,7 @@ publishing {
             artifact "/IndoorAtlasSdk/indooratlas_android_sdk_3.4.12.aar" //aar artifact you want to publish
 
             //generate pom nodes for dependencies
+/*
             pom.withXml {
                 def dependenciesNode = asNode().appendNode('dependencies')
                 configurations.compile.allDependencies.each { dependency ->
@@ -86,6 +87,7 @@ publishing {
                     dependencyNode.appendNode('version', dependency.version)
                 }
             }
+*/
         }
     }
 
