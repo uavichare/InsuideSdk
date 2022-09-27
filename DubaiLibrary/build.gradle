@@ -71,8 +71,8 @@ dependencies {
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId 'com.example' //You can either define these here or get them from project conf elsewhere
-            artifactId 'example'
+            groupId 'com.example.dubailibrary' //You can either define these here or get them from project conf elsewhere
+            artifactId 'dubailibrary'
             version '1.5'
             artifact "/IndoorAtlasSdk/indooratlas_android_sdk_3.4.12.aar" //aar artifact you want to publish
 
