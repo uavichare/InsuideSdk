@@ -90,12 +90,5 @@ publishing {
 */
         }
     }
-
-    //publish to filesystem repo
-    repositories{
-        maven {
-            url "https://github.com/UdayInsuide/DubaiSdkInsuide"
-        }
-    }
-}
+ }
 
